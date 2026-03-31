@@ -28,7 +28,7 @@ pip install opencv-python numpy
 ## Running the project
 
 ```bash
-python air_canvas.py
+python Air_canvas.py
 ```
 
 A webcam window will open. Hold a **red or pink colored object** in front of the camera to start drawing.
@@ -52,7 +52,7 @@ Move your tracked object into a button's region (top 65px of the frame) to activ
 
 ## Customizing the tracked color
 
-The default tracking target is a red/pink object, defined by this HSV range in `air_canvas.py`:
+The default tracking target is a red/pink object, defined by this HSV range in `Air_canvas.py`:
 
 ```python
 lower_bound = np.array([170, 120, 70])
@@ -72,7 +72,7 @@ To track a different color, update these values. You can use an HSV color picker
 ## Project structure
 
 ```
-air_canvas.py   # Main script — all logic lives here
+Air_canvas.py   # Main script — all logic lives here
 README.md
 ```
 
