@@ -1,4 +1,4 @@
-# TechVidvan - Air Canvas
+# Sidra Shaikh - Air Canvas
 
 # Import necessary packages.
 import cv2
